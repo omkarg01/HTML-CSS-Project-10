@@ -5,7 +5,7 @@
 ![hitesh choudhary](https://img.shields.io/badge/Hitesh--Choudhary-Full--stack--JS--bootcamp-red)
 ![HTML & CSS](https://img.shields.io/badge/HTML-CSS-orange)
 
-## Project 10 [Live Link](https://62e44ffef9d40204c5025f3d--sensational-youtiao-d8f797.netlify.app/)
+## Project 10 [Live Link](https://interior-design-og.netlify.app)
 
 -   Skills Gained in this project
     -   Learned to structure the html file.
