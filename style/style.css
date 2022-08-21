@@ -26,8 +26,13 @@ HTML {
 .navbar {
     align-items: center;
     display: flex;
-    height: 20vh;
+    /* height: 20vh; */
+    padding-block: 5rem;
     justify-content: space-between;
+}
+
+.fa-solid.fa-bars {
+    display: none;
 }
 
 .logo img {
@@ -66,13 +71,13 @@ HTML {
 .hero {
     color: white;
     display: flex;
-    height: 50vh;
+    /* height: 50vh; */
     justify-content: start;
 }
 
 .hero .left h1 {
     font-size: 6rem;
-    margin-top: 10rem;
+    margin-top: 8rem;
 }
 
 .btn {
@@ -97,21 +102,20 @@ HTML {
     font-size: 1.5rem;
     font-weight: 600;
     height: fit-content;
-    padding: 2rem 2rem;
+    padding: 5% 6%;
     position: absolute;
-    width: 22rem;
 }
 
 .box.one {
-    left: 50rem;
+    left: 30vw;
     position: relative;
-    top: 5rem;
+    top: 5vh;
 }
 
 .box.two {
-    left: 2rem;
+    left: 2vw;
     position: relative;
-    top: 17rem;
+    top: 17vh;
 }
 
 .box .logo {
@@ -123,7 +127,7 @@ HTML {
     height: 4rem;
     justify-content: center;
     margin-block: 1rem;
-    width: 9rem;
+    width: 40%;
 }
 
 .fa-solid {
@@ -146,7 +150,7 @@ HTML {
 }
 
 .box.two .extra .circle {
-    left: 32rem;
+    left: 28rem;
     top: 7rem;
 }
 
@@ -167,6 +171,123 @@ HTML {
 }
 
 .box.two .extra .line {
-    left: 26rem;
+    left: 21rem;
     top: 8rem;
+}
+
+@media (width <=425px) {
+    .fa-solid.fa-bars {
+        display: block;
+        color: #fff;
+    }
+
+    .navbar {
+        padding-block: 2rem;
+    }
+
+    .navbar .logo {
+        height: 3rem;
+    }
+
+    .navbar .logo img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .navbar .list {
+        display: none;
+    }
+
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero .left h1 {
+        font-size: 2.7rem;
+        margin-top: 5rem;
+    }
+
+    .hero .left .btn {
+        font-size: 1.2rem;
+        padding: 1rem 1.7rem;
+        border: 2.5px solid #fff;
+        margin-top: 2rem;
+    }
+
+    .hero .right {}
+
+    .box {
+        display: absolute;
+        /* width: ; */
+        font-size: 1rem;
+        width: 100%;
+        /* height: 5rem; */
+        margin: 0;
+
+    }
+
+    .box.one, .box.two{
+        /* right: 0; */
+        /* margin-right: 5rem; */
+        margin: 0;
+        width: 15rem;
+        padding: 1rem;
+    }
+
+    .box .logo {
+        /* margin-right: 0; */
+        height: 3rem;
+        margin-block: 0.5rem;
+    }
+
+
+    .fa-solid{
+        font-size: 2rem;
+    }
+
+
+
+    .extra .circle {
+        background-color: white;
+        border-radius: 1rem;
+        height: 1.5rem;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 1.5rem;
+    }
+    
+    .box.one .extra .circle {
+        left: 13rem;
+        top: 12rem;
+    }
+    
+    .box.two .extra .circle {
+        left: 20rem;
+        top: 2rem;
+    }
+    
+    .extra .line {
+        background-color: white;
+        border-radius: 1rem;
+        bottom: 0;
+        height: 1.5px;
+        position: absolute;
+        right: 0;
+        width: 4rem;
+    }
+    
+    .box.one .extra .line {
+        left: 11.6rem;
+        top: 11rem;
+        transform: rotate(90deg);
+    }
+    
+    .box.two .extra .line {
+        left: 17rem;
+        top: 2.6rem;
+    }
+
+
 }
