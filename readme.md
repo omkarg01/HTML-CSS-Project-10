@@ -1,11 +1,8 @@
-# Assignment 1
+## Project 10 [Live Link](https://interior-design-og.netlify.app)
 
 ![name](https://img.shields.io/badge/Omkar--Gujja-OG)
-![ineuro, lco](https://img.shields.io/badge/iNeuron-LCO-green)
 ![hitesh choudhary](https://img.shields.io/badge/Hitesh--Choudhary-Full--stack--JS--bootcamp-red)
-![HTML & CSS](https://img.shields.io/badge/HTML-CSS-orange)
-
-## Project 10 [Live Link](https://interior-design-og.netlify.app)
+---
 
 -   Skills Gained in this project
     -   Learned to structure the html file.
@@ -13,10 +10,10 @@
 
 ---
 
-## Time taken to finish this project
+## Time taken
 
--   Approximately 3-4 hour taken to complete this one.
+-   Approximately 5-6 hour taken to complete this project.
 
-#### Screenshot
+#### Preview
 
 ![Desktop](./ss/preveiw.png)
