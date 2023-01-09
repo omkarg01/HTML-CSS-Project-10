@@ -1,7 +1,7 @@
 ## Project 10 [Live Link](https://interior-design-og.netlify.app)
 
 ![name](https://img.shields.io/badge/Omkar--Gujja-OG)
-![hitesh choudhary](https://img.shields.io/badge/Hitesh--Choudhary-Full--stack--JS--bootcamp-red)
+![Full stack JS bootcamp](https://img.shields.io/badge/-Full%20stack%20JS%20Bootcamp-red)
 ---
 
 -   Skills Gained in this project
